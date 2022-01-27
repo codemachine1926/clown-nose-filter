@@ -1,0 +1,18 @@
+canvas {
+    animation-name: canvas1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvas1 {
+
+    from{
+        box-shadow: 5px 5px 40px rgb(255, 0, 0);
+    }
+    to{
+        box-shadow: 5px 5px 40px rgb(0, 134, 139);
+    }
+}
+.btn-info:hover {
+    background-color: darkred;
+}
